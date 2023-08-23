@@ -8,11 +8,15 @@ export default async function Footer() {
         <footer
             style={{
                 width: "100%",
-                backgroundColor: "transparent",
+                color: 'navy',
+                backgroundColor: 'thistle',
                 position: "static",
                 bottom: 0,
                 display: 'flex',
-                justifyContent: 'center'
+                justifyContent: 'center',
+                borderTop: '5px solid black',
+                padding: '10px',
+                fontSize: 'larger',
             }}>
             <p style={{
                 display: 'flex',
@@ -26,10 +30,10 @@ export default async function Footer() {
                     {/* <InstagramIcon /> */}
                 </Link>
                 <span style={{
-                        margin: '1vh',
-                    }}>
-                        © Wild Heart Training 2023
-                    </span>
+                    margin: '1vh',
+                }}>
+                    © Wild Heart Training 2023
+                </span>
             </p>
         </footer>
     )
