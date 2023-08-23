@@ -1,5 +1,8 @@
 import Link from "next/link";
 
+//Icons not working yet
+//import InstagramIcon from '@mui/icons-material/Instagram';
+
 export default async function Footer() {
     return (
         <footer
@@ -16,16 +19,17 @@ export default async function Footer() {
                 flexFlow: 'row wrap',
                 alignItems: 'center',
             }}>
-                <Link href="https://github.com/Wir3s/wildheart/tree/main" target="_blank"
+                <Link href="https://www.instagram.com/wild.heart.training/" target="_blank"
                     style={{
                         margin: '1vh',
-                    }}>
-                    <span style={{
+                    }}> Instagram Icon
+                    {/* <InstagramIcon /> */}
+                </Link>
+                <span style={{
                         margin: '1vh',
                     }}>
                         © Wild Heart Training 2023
                     </span>
-                </Link>
             </p>
         </footer>
     )
