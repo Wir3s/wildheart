@@ -105,17 +105,3 @@ a {
     color-scheme: dark;
   }
 }
-
-
-
-
-
-
-
-
-ul li {
-  list-style: none;
-  /* Makes the nav links appear inline */
-  display: inline-block;
-  padding: 5px;
-}
