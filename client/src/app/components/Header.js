@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Grid from '@mui/material/Grid';
 
+import { useRouter } from 'next/navigation'
+
 export default async function Header() {
   return (
     <header>
@@ -33,7 +35,7 @@ export default async function Header() {
               textAlign: "center",
             }}>Wild Heart Behaviour & Training</h1>
           </Grid>
-          <Grid item={4}>
+          <Grid item xl={4}>
             <ul>
               <li style={{
                 listStyle: 'none',
@@ -51,7 +53,7 @@ export default async function Header() {
               </li>
             </ul>
           </Grid>
-          <Grid item={4} sx={{
+          <Grid item xl={4} sx={{
             display: {
               xs: "none",
               md: "flex"
@@ -62,7 +64,7 @@ export default async function Header() {
               textAlign: "center",
             }}>Wild Heart Behaviour & Training</h1>
           </Grid>
-          <Grid item={4}>
+          <Grid item xl={4}>
             <ul>
               <li style={{
                 listStyle: 'none',
