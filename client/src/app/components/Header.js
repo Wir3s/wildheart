@@ -3,6 +3,8 @@ import Grid from '@mui/material/Grid';
 
 import { useRouter } from 'next/navigation'
 
+const businessName = "Wild Heart Behaviour & Training";
+
 export default async function Header() {
   return (
     <header>
@@ -33,7 +35,7 @@ export default async function Header() {
             <h1 style={{
               maxWidth: "300px",
               textAlign: "center",
-            }}>Wild Heart Behaviour & Training</h1>
+            }}>{businessName}</h1>
           </Grid>
           <Grid item xl={4}>
             <ul>
@@ -62,7 +64,7 @@ export default async function Header() {
             <h1 style={{
               maxWidth: "300px",
               textAlign: "center",
-            }}>Wild Heart Behaviour & Training</h1>
+            }}>{businessName}</h1>
           </Grid>
           <Grid item xl={4}>
             <ul>
