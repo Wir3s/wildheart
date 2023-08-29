@@ -6,9 +6,6 @@ import ContentArea2 from './components/ContentArea2';
 export default function Home() {
   return (
     <main className={styles.main}>
-      <p>Welcome to my World.
-      </p>
-
       <Hero />
       <ContentArea1 />
       <ContentArea2 />
